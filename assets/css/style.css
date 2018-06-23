@@ -1,0 +1,403 @@
+/*All html elements*/
+* {
+  text-decoration: none;
+}
+
+/*All website container*/
+.container {
+  width: 100%;
+}
+
+/*Anything in between <body> & </body>*/
+body {
+  background-color: #ffffff;
+}
+
+/*Logo on left side, Name*/
+.headlogo {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 30px;
+  font-weight: 700;
+  display: block;
+  float: left;
+  border: solid 2px #dddddd;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 100px;
+}
+
+/*Links to different webpages*/
+.links {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #666666;
+  padding-top: 20px;
+  margin-right: 100px;
+}
+/* About page link specifications*/
+.a {
+  float: right;
+  position: relative;
+  padding-top: 30px;
+  padding: 20px;
+}
+
+a:link,
+a:visited {
+  color: #666666;
+}
+a:hover {
+  color: #4aaaa5;
+  border: 2px solid #4aaaa5;
+}
+/*Left side logo, name hover features*/
+
+.headlogo:link,
+.headlogo:visited {
+  color: #ffffff;
+}
+
+.headlogo:hover {
+  border: 2px solid white;
+}
+/*Portfolio link to page features*/
+.p {
+  float: right;
+  position: relative;
+  padding-top: 30px;
+  padding: 20px;
+}
+
+/*Contact link to page features*/
+.c {
+  float: right;
+  position: relative;
+  padding-top: 30px;
+  padding: 20px;
+}
+
+/*Background image behind .contentback container*/
+.background {
+  clear: both;
+  height: 100vh;
+  background-image: url(../images/Subtle-Grunge-Grey-Seamless-Pattern-For-Website-Background.jpg);
+  position: relative;
+  padding-top: 20px;
+  width: 100%;
+}
+
+/*Container for the main content*/
+.contentback {
+  background-color: #ffffff;
+  border: solid #dddddd 2px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+/*Picture for About page, positioned left of text*/
+#pic {
+  position: relative;
+  float: left;
+  margin: 20px;
+  width: 20%;
+  height: 20%;
+}
+
+/*Subtitle specifications for About, Portfolio and Contact pages*/
+.subtitle {
+  color: #4aaaa5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/*text within the content body*/
+.text {
+  padding-top: 20px;
+  height: 300px;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Line break between, used to seperate subtitle on each page from content*/
+hr {
+  display: block;
+  margin-top: 0.5px;
+  margin-left: 90px;
+  margin-right: 90px;
+  border-style: inset;
+  border-width: 1px;
+  color: #dddddd;
+}
+
+/*footer design */
+.footer {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: solid 5px #4aaaa5;
+  background-color: #666666;
+  color: #ffffff;
+  text-align: center;
+}
+
+/*Form for contact page*/
+.container_form {
+  color: #666666;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+/*Name section on form*/
+#name {
+  height: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+#name:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+/*Email section on form*/
+#email {
+  height: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+#email:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+/*Messages section on form*/
+#messages {
+  height: 100px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+#messages:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+/*Submit section on form*/
+input [type="button"],
+input[type="submit"],
+input [type="reset"] {
+  background-color: #4aaaa5;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+/*Hover feature on buttons/containers*/
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover,
+.hvr-bounce-in:focus,
+.hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+/*Portfolio boxes*/
+.portfolio {
+  float: center;
+  padding: 30px;
+  position: relative;
+  background: #ffffff;
+  height: 300px;
+  margin: 20px;
+}
+
+/*Portfolio boxes positioning individually*/
+#p1 {
+  float: left;
+  padding-right: 50px;
+}
+
+#p2 {
+  float: center;
+}
+
+/*Portfolio boxes titles individual*/
+.p1title {
+  position: absolute;
+  margin-top: 160px;
+  font-size: 20px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+/*Portfolio boxes* titles individuals*/
+.p2title {
+  position: absolute;
+  margin-top: 160px;
+  font-size: 20px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+/*Animation About page*/
+/*div for the logo*/
+#animation {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background-color: pink;
+  position: relative;
+  animation: move 5s infinite;
+  animation-name: move;
+  animation-duration: 4s;
+}
+
+/*logo in animated div*/
+#round {
+  width: 100px;
+}
+/*movement of logo and div, on about page*/
+@keyframes move {
+  0% {
+    background-color: #4aaaa5;
+    left: 0%;
+    top: 0%;
+  }
+  25% {
+    background-color: #48d1cc;
+    left: 25%;
+    top: 0px;
+  }
+  50% {
+    background-color: #40e0d0;
+    left: 45%;
+    top: 0px;
+  }
+  75% {
+    background-color: #afeeee;
+    left: 65%;
+    top: 0px;
+  }
+  100% {
+    background-color: #d1eeee;
+    left: 80%;
+    top: 0px;
+  }
+}
+
+/*Media Queries for responsiveness*/
+
+/*980px Media Query*/
+@media screen and (max-width: 980px) {
+  .contentback {
+    float: left;
+    margin-left: 5%;
+    padding: 0;
+  }
+  .text {
+    position: relative;
+  }
+  .container_form {
+    width: 500px;
+  }
+  .imgg {
+    position: relative;
+  }
+}
+
+/*768px Media Query*/
+@media screen and (max-width: 768px) {
+  .contentback {
+    float: center;
+    width: 90%;
+    margin: 5%;
+  }
+  .text {
+    position: relative;
+    margin: 20px;
+  }
+  .container_form {
+    width: 100%;
+    float: center;
+  }
+  .imgg {
+    position: relative;
+  }
+  .background {
+    background-color: lightgray;
+    background-image: none;
+  }
+
+  #p1 {
+    margin-bottom: 20px;
+  }
+}
+
+/*640px Media Query*/
+@media screen and (max-width: 640px) {
+  .contentback {
+    float: center;
+    width: 90%;
+    margin: 5%;
+  }
+  .headlogo {
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .links {
+    float: center;
+    padding-right: 50px;
+    padding-left: 10px;
+    margin-right: 0px;
+  }
+  .text {
+    position: relative;
+    margin: 20px;
+  }
+  .container_form {
+    width: 100%;
+    float: center;
+  }
+  .imgg {
+    position: relative;
+  }
+  .background {
+    background-color: lightgray;
+    background-image: none;
+  }
+  .portfolio {
+    margin: 0;
+    float: center;
+  }
+  #p1 {
+    width: 500px;
+  }
+  #p1 {
+    margin-bottom: 20px;
+  }
+}
