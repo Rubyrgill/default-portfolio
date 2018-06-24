@@ -228,7 +228,9 @@ input [type="reset"] {
 /*Portfolio boxes positioning individually*/
 #p1 {
   float: left;
-  padding-right: 50px;
+  margin: 20px;
+  font-size: 12px;
+  /* padding-right: 50px; */
 }
 
 #p2 {
